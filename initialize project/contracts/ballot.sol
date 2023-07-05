@@ -10,9 +10,10 @@ contract Ballot {
     function setMessage(string memory newMessage) public {
         message = newMessage;
     }
-    
-    function getMessage() public view returns (string memory) {
-        return message;
-    }
-    
+   /* function doMath(int a, int b) public {
+        a + b;
+        b - a;
+        b * a;
+        a == 0;
+    }*/
 }

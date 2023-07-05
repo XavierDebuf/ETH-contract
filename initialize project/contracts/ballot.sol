@@ -1,9 +1,9 @@
-pragma solidity >=0.4.17 <0.9.0;
+pragma solidity >=0.4.17 <1.0.0;
 
 contract Ballot {
     string public message;
     
-    constructor (string memory initalMessage) public {
+    constructor(string memory initalMessage) public {
         message = initalMessage;
     }
     

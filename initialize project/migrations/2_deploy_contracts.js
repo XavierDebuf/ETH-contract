@@ -1,4 +1,4 @@
-var Inbox=artifacts.require ("../contracts/ballot.sol");
+var Ballot=artifacts.require ("../contracts/Ballot.sol");
 module.exports = function(deployer) {
-      deployer.deploy(Inbox);
+      deployer.deploy(Ballot, "first message");
 }

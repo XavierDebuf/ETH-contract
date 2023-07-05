@@ -1,6 +1,6 @@
 pragma solidity >=0.4.17 <0.9.0;
 
-contract Inbox {
+contract Ballot {
     string public message;
     
     constructor (string memory initalMessage) public {
